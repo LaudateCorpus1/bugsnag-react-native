@@ -68,7 +68,7 @@ NSString *BSGBreadcrumbTypeValue(BSGBreadcrumbType type) {
         _timestamp = [NSDate date];
         _name = BSGBreadcrumbDefaultName;
         _type = BSGBreadcrumbTypeManual;
-        _metadata = @{};
+        _metadata = [NSDictionary dictionary];
     }
     return self;
 }
